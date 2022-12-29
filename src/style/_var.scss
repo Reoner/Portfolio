@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'FiraCode-Regular', sans-serif;
+    src: inherit;
+
+    font-family: 'FiraCode-Medium', sans-serif;
+    src: inherit;
+
+    font-family: 'FiraCode-Bold', sans-serif;
+    src: inherit;
+}
+%fcr {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+%fcm {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+%fcb {
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
