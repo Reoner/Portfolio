@@ -1,0 +1,65 @@
+.middle-top {
+    width: 1024px;
+    height: 423px;
+    padding-top: 136px;
+
+    &__container {
+        display: flex;
+        padding: 74px 6px 0 0;
+    }
+
+    &__text {
+        width: 537px;
+
+        &-title {
+            @extend %mtt;
+            color: white;
+        }
+
+        &-subtitle {
+            @extend %fcr;
+            color: #ABB2BF;
+            margin-top: 32px;
+        }
+    }
+
+    &__button-text {
+        @extend %fcm;
+        text-decoration: none;
+        color: white;
+    }
+
+    &__image {
+        width: 460px;
+        position: relative;
+
+        &-human {
+            position: absolute;
+            top: 150px;
+            left: 960px;
+        }
+        &-outline { 
+            position: relative;
+            width: 155px;
+            top: 10%;
+        }
+
+        &-dots {
+            position: relative;
+            width: 84px;
+            top: 150px;
+            left: 170px;
+        }
+    }
+}
+
+.btn-outline-danger {
+    border-radius: 0;
+    border-color: #C778DD;
+    padding: 8px 16px;
+
+    &:hover {
+        background: rgb(199, 118, 221, 0.3);
+        border-color: #C778DD;
+    }
+}
